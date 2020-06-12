@@ -1,0 +1,9 @@
+package main
+import (
+       "fmt"
+       "math"
+)
+
+func Sqrt(z, x float64) flaot64 {
+     for z < x {
+     z -= (z*z - x)/(2*z)
